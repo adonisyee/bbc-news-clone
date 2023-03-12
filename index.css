@@ -108,7 +108,7 @@ img {
     grid-row: 2 / 3;
 }
 
-@media screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
     .featured-article {
         grid-column: 1 / span 3;
     }
@@ -116,4 +116,3 @@ img {
         grid-column: span 2;
     }
 }
-
